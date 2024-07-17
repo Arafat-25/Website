@@ -1,0 +1,117 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+header {
+    /* background-color: #4B0082; */
+    color: #fff;
+
+}
+.topbar {
+    display: flex;
+    background-color: #4B0082;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    padding:10px 20px ;
+}
+log{
+    max-width: 25%;
+    max-height: 15%;
+    
+}
+
+.logo img {
+
+    margin:0 2px 0 6px;
+    padding: 2px;
+    float: left;
+    
+
+    height: 50px;
+
+}
+
+.details{
+    display: flex;
+    font-size:14px;
+    align-items: center;
+   justify-content: center;
+   padding-left: 20px;
+   font-weight: bold;
+   
+   padding-top: 20px;
+   /* float: right; */
+    
+}
+
+
+
+
+
+.contact-info {
+    font-size: 15px;
+    margin-right:2rem;
+    
+
+}
+
+.contact-info a {
+    color:#fff;
+    text-decoration: none;
+}
+.contact-info a:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: #eed700;
+    padding:0;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.navbar ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar li{
+    display:inline;
+    padding: 15px;
+    margin: 0 3rem 0 3rem;
+
+}
+.navbar a{
+text-decoration: none;
+color: #4B0082;
+font-weight: bold;
+padding: 10px 20px;
+
+}
+li a:visited {
+    color: #00698f;
+}
+
+li a:hover {
+    background-color: #6f4b89;
+    color:#ffd700
+}
+
+li a:active{
+    color: #ff69b4;
+}
+.ima{
+    background-image: url('myimages/second.jpg');
+    /* background-size: cover; */
+    background-position: center;
+    align-items: center;
+    width: 100%;
+    height:50vh;
+    object-fit: cover;}
